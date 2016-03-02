@@ -9,5 +9,6 @@ goto sending
 :settingip
 set /p ip=<"src\ip.txt"
 :sending
+cls
 java -jar src\sockfile.jar %ip% %1%
 pause
